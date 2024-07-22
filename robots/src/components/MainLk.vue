@@ -16,7 +16,7 @@
       </div>
       <picture class="mainlk__picture">
         <source srcset="../assets/img/lk-robot-tablet.svg" media="(max-width: 1370px)">
-        <source srcset="" media="(max-width: 360px)">
+        <source srcset="../assets/img/lk-robot-phone.svg" media="(max-width: 729px)">
 
         <img class="mainlk__image" src="../assets/img/lk-robot-desktop.svg" alt="" />
       </picture>
@@ -429,6 +429,7 @@ button {
   .mainlk {
     background-image: url('../assets/img/lk-background-lines-tablet.svg');
     background-size: 744px 963px;
+    background-position: center;
   }
 
   .mainlk__first-section {
@@ -657,5 +658,260 @@ button {
     left: 32px;
     bottom: 0px;
   }
+}
+
+@media screen and (max-width: 1049px) {
+  .mainlk__first-section {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .mainlk__second-section {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .mainlk__fourth-section {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+@media screen and (max-width: 849px) {
+  .mainlk__first-section {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .mainlk__second-section {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .mainlk__fourth-section {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media screen and (max-width: 729px) {
+
+  .mainlk__first-section {
+    height: 766px;
+    background-image: url('../assets/img/lk-section-banner-phone.png');
+    padding-top: 104px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mainlk__first-section-container {
+    max-width: 320px;
+  }
+
+  .mainlk__title {
+    font-size: 24px;
+    line-height: 26.54px;
+  }
+
+  .mainlk__title-first {
+    margin-bottom: 20px;
+  }
+
+  .mainlk__text {
+    font-size: 16px;
+    line-height: 20px;
+
+  }
+
+  .mainlk__text-first {
+    margin-bottom: 40px;
+  }
+
+  .mainlk__button-container {
+    max-width: 320px;
+    height: 54px;
+  }
+
+  .mainlk__button {
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 95% 100%, 0 100%);
+    height: 47px;
+    font-size: 16px;
+    line-height: 19.36px;
+  }
+
+  .mainlk__button-figure {
+    background-image: url('../assets/img/button-figure.svg');
+    width: 120px;
+    height: 14px;
+    position: absolute;
+    left: 32px;
+    bottom: 1px;
+  }
+
+  .mainlk__button-link {
+    max-width: 320px;
+    height: 43px;
+  }
+
+  .mainlk__button-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.36px;
+    margin-right: 0;
+  }
+
+  .mainlk__button-frame {
+    display: none;
+  }
+
+  .mainlk__picture {
+    margin-left: 0;
+    margin-top: 40px;
+    width: 320px;
+    height: 298px;
+  }
+
+  .mainlk__second-section {
+    max-width: 320px;
+    padding: 0;
+  }
+
+  .mainlk__second-section-container {
+    max-width: 320px;
+  }
+
+  .mainlk__text-second {
+    margin-bottom: 40px;
+  }
+
+  .mainlk__second-figure {
+    display: none;
+  }
+
+  .mainlk__second-vector {
+    display: none;
+  }
+
+  .mainlk__third-section {
+    width: 320px;
+    height: 430px;
+    background-image: url('../assets/img/lk-third-section-background-phone.png');
+    margin-bottom: 80px;
+    margin-top: 80px;
+  }
+
+  .mainlk__third-section-container {
+    width: 280px;
+    margin-left: 20px;
+    margin-top: 60px;
+  }
+
+  .mainlk__title-third {
+    font-size: 24px;
+    line-height: 26.54px;
+  }
+
+  .mainlk__text-third {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 40px;
+  }
+
+  .mainlk__button-third {
+    width: 100%;
+    height: 43px;
+    font-size: 16px;
+    line-height: 19.36px;
+  }
+
+  .mainlk__fourth-section {
+    max-width: 320px;
+    margin-bottom: 80px;
+    padding: 0;
+  }
+
+  .mainlk__fourth-title-container {
+    margin-bottom: 40px;
+  }
+
+  .mainlk__horizontal-figure {
+    display: none;
+  }
+
+  .mainlk__card-container {
+    display: flex;
+    padding: 0;
+    gap: 20px;
+  }
+
+  .mainlk__card {
+    padding: 0;
+    clip-path: polygon(100% 100%, 100% 0, 100% 0, 8% 0, -65% 100%);
+    width: 320px;
+    max-height: 240px;
+    padding: 40px 20px 20px 20px;
+
+  }
+
+  .mainlk__card-1 {
+    background-image: url('../assets/img/card-background-1.svg');
+    background-repeat: no-repeat;
+    background-size: 150px 164px;
+    background-position: top right;
+  }
+
+  .mainlk__card-2 {
+    background-image: url('../assets/img/card-background-2.svg');
+    background-repeat: no-repeat;
+    background-size: 150px 164px;
+    background-position: top right;
+  }
+
+  .mainlk__card-3 {
+    background-image: url('../assets/img/card-background-3.svg');
+    background-repeat: no-repeat;
+    background-size: 150px 164px;
+    background-position: top right;
+  }
+
+  .mainlk__card-title {
+    font-size: 16px;
+    line-height: 17.7px;
+    margin-bottom: 20px;
+  }
+
+  .mainlk__card-text {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .mainlk__card-button-container {
+    max-width: 320px;
+    height: 54px;
+  }
+
+  .mainlk__card-button {
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 95% 100%, 0 100%);
+    width: 100%;
+    height: 47px;
+    background-color: transparent;
+    background-image: url('../assets/img/black-button-phone.svg');
+    font-size: 16px;
+    line-height: 19.36px;
+  }
+
+  .mainlk__card-button-figure {
+    background-image: url('../assets/img/black-button-frame-phone.svg');
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .mainlk {
+    background-image: url('../assets/img/lk-background-lines-phone.svg');
+    background-size: 360px 904px;
+    background-position: center;
+  }
+  
 }
 </style>
