@@ -15,7 +15,7 @@
         </div>
       </div>
       <picture class="mainlk__picture">
-        <source srcset="" media="(max-width: 744px)">
+        <source srcset="../assets/img/lk-robot-tablet.svg" media="(max-width: 1370px)">
         <source srcset="" media="(max-width: 360px)">
 
         <img class="mainlk__image" src="../assets/img/lk-robot-desktop.svg" alt="" />
@@ -64,7 +64,8 @@
         </li>
         <li class="mainlk__card mainlk__card-2">
           <h2 class="mainlk__card-title">VR</h2>
-          <span class="mainlk__card-text">Список учебных заведений в России с направлением «Виртуальная реальность»</span>
+          <span class="mainlk__card-text">Список учебных заведений в России с направлением «Виртуальная
+            реальность»</span>
           <div class="mainlk__card-button-container">
             <button class="mainlk__card-button">Скачать</button>
             <div class="mainlk__card-button-figure"></div>
@@ -72,7 +73,8 @@
         </li>
         <li class="mainlk__card mainlk__card-3">
           <h2 class="mainlk__card-title">AR</h2>
-          <span class="mainlk__card-text">Список учебных заведений в России с направлением «Дополненная реальность»</span>
+          <span class="mainlk__card-text">Список учебных заведений в России с направлением «Дополненная
+            реальность»</span>
           <div class="mainlk__card-button-container">
             <button class="mainlk__card-button">Скачать</button>
             <div class="mainlk__card-button-figure"></div>
@@ -359,11 +361,21 @@ button {
   display: flex;
   flex-direction: column;
   padding: 40px 40px 20px 40px;
-  
+
 }
 
 .mainlk__card-1 {
   background-image: url('../assets/img/card-background-1.svg');
+  background-repeat: no-repeat;
+}
+
+.mainlk__card-2 {
+  background-image: url('../assets/img/card-background-2.svg');
+  background-repeat: no-repeat;
+}
+
+.mainlk__card-3 {
+  background-image: url('../assets/img/card-background-3.svg');
   background-repeat: no-repeat;
 }
 
@@ -414,7 +426,236 @@ button {
 }
 
 @media screen and (max-width: 1370px) {
+  .mainlk {
+    background-image: url('../assets/img/lk-background-lines-tablet.svg');
+    background-size: 744px 963px;
+  }
 
+  .mainlk__first-section {
+    height: 451px;
+    background-image: url('../assets/img/lk-section-banner-tablet.png');
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 131px;
+  }
+
+  .mainlk__first-section-container {
+    max-width: 322px;
+  }
+
+  .mainlk__title {
+    font-size: 24px;
+    line-height: 26.54px;
+  }
+
+  .mainlk__title-first {
+    margin-bottom: 32px;
+  }
+
+  .mainlk__text {
+    font-size: 16px;
+    line-height: 20px;
+
+  }
+
+  .mainlk__text-first {
+    margin-bottom: 44px;
+  }
+
+  .mainlk__button-container {
+    max-width: 322px;
+    height: 58px;
+  }
+
+  .mainlk__button {
+    height: 51px;
+    font-size: 16px;
+    line-height: 19.36px;
+    font-weight: 500;
+  }
+
+  .mainlk__button-figure {
+    left: 32px;
+    bottom: 1px;
+  }
+
+  .mainlk__button-link {
+    max-width: 322px;
+    height: 58px;
+  }
+
+  .mainlk__button-text {
+    font-size: 16px;
+    line-height: 19.36px;
+  }
+
+  .mainlk__button-frame {
+    background-image: url('../assets/img/button-frame.svg');
+    width: 24px;
+    height: 24px;
+  }
+
+  .mainlk__picture {
+    margin-left: 20px;
+  }
+
+  .mainlk__second-section {
+    padding-left: 200px;
+    padding-right: 200px;
+    box-sizing: border-box;
+    margin-top: 80px;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .mainlk__second-section-container {
+    max-width: 323px;
+  }
+
+  .mainlk__title-second {
+    margin-bottom: 20px;
+  }
+
+  .mainlk__text-second {
+    margin-bottom: 60px;
+  }
+
+  .mainlk__second-figure {
+    background-image: url('../assets/img/lk-orange-vector-tablet.svg');
+    background-repeat: no-repeat;
+    width: 21px;
+    height: 256px;
+    padding-right: 65px;
+    margin: 0;
+  }
+
+  .mainlk__second-vector {
+    background-image: url('../assets/img/lk-vector-tablet.svg');
+    background-repeat: no-repeat;
+    width: 235px;
+    height: 233px;
+    padding-left: 19px;
+    margin: 0;
+  }
+
+  .mainlk__third-section {
+    width: 664px;
+    height: 363px;
+    background-image: url('../assets/img/lk-third-section-background-tablet.png');
+    margin-bottom: 80px;
+    margin-top: 80px;
+  }
+
+  .mainlk__third-section-container {
+    width: 350.05px;
+    margin-left: 87px;
+    margin-top: 67px;
+  }
+
+  .mainlk__title-third {
+    font-size: 24px;
+    line-height: 26.54px;
+  }
+
+  .mainlk__text-third {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .mainlk__button-third {
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 90% 100%, 0 100%);
+    width: 167px;
+    height: 52px;
+    font-size: 16px;
+    line-height: 19.36px;
+  }
+
+  .mainlk__fourth-section {
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-bottom: 80px;
+  }
+
+  .mainlk__fourth-title-container {
+    margin-bottom: 44px;
+    width: 100%;
+  }
+
+  .mainlk__horizontal-figure {
+    background-image: url('../assets/img/purple-horizontal-vector-tablet.svg');
+    width: 210px;
+    height: 20px;
+  }
+
+  .mainlk__card-container {
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .mainlk__card {
+    width: 100%;
+    clip-path: polygon(100% 100%, 100% 0, 100% 0, 4% 0, -25% 100%);
+    max-height: 222px;
+    padding: 40px 0 17px 40px;
+    box-sizing: border-box;
+  }
+
+  .mainlk__card-1 {
+    background-position: right;
+  }
+
+  .mainlk__card-2 {
+    background-image: url('../assets/img/card-background-2.svg');
+    background-position: right;
+  }
+
+  .mainlk__card-3 {
+    background-image: url('../assets/img/card-background-3.svg');
+    background-position: right;
+  }
+
+  .mainlk__card-title {
+    font-size: 14px;
+    line-height: 15.48px;
+    max-width: 360px;
+  }
+
+  .mainlk__card-text {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 32px;
+    max-width: 360px;
+  }
+
+  .mainlk__card-button-container {
+    max-width: 360px;
+    height: 58px;
+  }
+
+  .mainlk__card-button {
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 95% 100%, 0 100%);
+    width: 100%;
+    height: 53px;
+    background-color: transparent;
+    background-image: url('../assets/img/black-button-tablet.svg');
+    font-size: 16px;
+    line-height: 19.36px;
+  }
+
+  .mainlk__card-button-figure {
+    background-image: url('../assets/img/black-button-frame.svg');
+    width: 120px;
+    height: 14px;
+    position: absolute;
+    left: 32px;
+    bottom: 0px;
+  }
 }
-
 </style>
