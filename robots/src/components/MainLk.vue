@@ -93,18 +93,6 @@ export default {
 </script>
 
 <style>
-div,
-h1,
-h2,
-h3,
-img,
-span,
-a,
-button {
-  margin: 0;
-  padding: 0;
-}
-
 @font-face {
   src: url(../assets/fonts/Inter-Medium.woff) format('woff');
   font-family: 'Inter';
@@ -367,16 +355,19 @@ button {
 .mainlk__card-1 {
   background-image: url('../assets/img/card-background-1.svg');
   background-repeat: no-repeat;
+  background-position: top right;
 }
 
 .mainlk__card-2 {
   background-image: url('../assets/img/card-background-2.svg');
   background-repeat: no-repeat;
+  background-position: top right;
 }
 
 .mainlk__card-3 {
   background-image: url('../assets/img/card-background-3.svg');
   background-repeat: no-repeat;
+  background-position: top right;
 }
 
 .mainlk__card-title {
@@ -700,6 +691,8 @@ button {
     height: 766px;
     background-image: url('../assets/img/lk-section-banner-phone.png');
     padding-top: 104px;
+    padding-left: 20px;
+    padding-right: 20px;
     flex-direction: column;
     align-items: center;
   }
@@ -809,6 +802,7 @@ button {
   .mainlk__title-third {
     font-size: 24px;
     line-height: 26.54px;
+    white-space: nowrap;
   }
 
   .mainlk__text-third {

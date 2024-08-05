@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 
 import MainLk from '../components/MainLk.vue';
+import ProfileLk from '../components/ProfileLk.vue';
 
 const router = createRouter({
   history: createWebHistory(),
@@ -8,6 +9,10 @@ const router = createRouter({
     {
       path: '/',
       component: MainLk,
+    },
+    {
+      path: '/profile',
+      component: ProfileLk,
     }
   ]
 })
