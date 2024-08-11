@@ -183,7 +183,7 @@ export default {
   clip-path: polygon(0 0, 100% 0, 100% 75%, 95% 100%, 0 100%);
   width: 100%;
   height: 75px;
-  background-color: #FFAA00;
+  background: #FFAA00;
   border: none;
   box-sizing: border-box;
   font-size: 20px;
@@ -192,6 +192,10 @@ export default {
   color: black;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.mainlk__button:hover {
+  background: linear-gradient(90deg, #FFAA00, #AA00FF);
 }
 
 .mainlk__button-figure {
@@ -214,6 +218,10 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.mainlk__button-link:hover {
+  background: rgba(255, 170, 0, 0.2);
 }
 
 .mainlk__button-text {
@@ -310,6 +318,11 @@ export default {
   font-weight: 500;
   cursor: pointer;
   border-radius: 6px;
+  transition: background-color 0.2s;
+}
+
+.mainlk__button-third:hover {
+  background-color: rgba(130, 0, 215, 1);
 }
 
 .mainlk__fourth-section {

@@ -10,7 +10,7 @@
           <div class="profilelk__input-container profilelk__input-container-tablet">
             <label class="profilelk__input-label">Ф.И.О.</label>
             <div class="profilelk__input-border">
-              <input class="profilelk__input" placeholder="Введите Ф.И.О.">
+              <input class="profilelk__input" placeholder="Введите Ф.И.О." required>
             </div>
           </div>
           <div class="profilelk__input-container profilelk__input-container-tablet">
@@ -264,6 +264,51 @@ button {
   color: white;
 }
 
+.profilelk__input:invalid {
+  outline: 1px solid red;
+}
+
+.profilelk__input:invalid:hover {
+  outline: 1px solid white;
+  box-shadow: none;
+}
+
+.profilelk__input:invalid::placeholder {
+  color: red;
+}
+
+.profilelk__input:invalid:hover::placeholder {
+  color: red;
+}
+
+.profilelk__input:focus {
+  outline: 1px solid white;
+}
+
+.profilelk__input:focus::placeholder {
+  color: white;
+}
+
+.profilelk__input:focus:hover::placeholder {
+  color: white;
+}
+
+.profilelk__input:focus:hover {
+  box-shadow: none;
+}
+
+.profilelk__input::placeholder {
+  color: rgba(208, 196, 214, 1);
+}
+
+.profilelk__input:hover {
+  box-shadow: 4px 4px 10px 0 #AA00FF;
+}
+
+.profilelk__input:hover::placeholder {
+  color: rgba(239, 207, 254, 1);
+}
+
 .profilelk__input-border {
   position: relative;
   background: linear-gradient(50deg, #FFAA00, #AA00FF);
@@ -288,6 +333,10 @@ button {
   line-height: 24.2px;
   cursor: pointer;
   color: white;
+}
+
+.profilelk__button:hover {
+  background-color: rgba(130, 0, 215, 1);
 }
 
 .profilelk__button-pass {
